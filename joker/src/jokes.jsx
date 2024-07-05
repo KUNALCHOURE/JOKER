@@ -1,10 +1,18 @@
+import { useState } from 'react';
 import './jokes.css';
 export default function Jokes(){
   const url="https://official-joke-api.appspot.com/random_joke";
-
-  let joke=async function getjoke(){
+const [jokes,setjoke]=useState({setup:"",punchline:""});
+  let getjoke=async ()=>{
     let res=await fetch(url);
-    console.log(res);
+    let jsonres=await res.json();
+    console.log(jsonres);
+    setjoke({
+      setup:jsonres.setup,
+      punchline:jsonres.punchline
+    });
+    console.log(jokes);
+  
   }
     return(
         <>
@@ -14,8 +22,8 @@ export default function Jokes(){
           </div>
           <hr />
 
-          <p></p>
-          <button>Find a Joke!</button>
+          <p >SETUP:{jokes.setup} <br />PUNCHLINE:{jokes.punchline} </p>
+          <button onClick={getjoke}>Find a Joke!</button>
         </>
     )
 }
