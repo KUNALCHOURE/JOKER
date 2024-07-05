@@ -1,6 +1,11 @@
 import './jokes.css';
 export default function Jokes(){
   const url="https://official-joke-api.appspot.com/random_joke";
+
+  let joke=async function getjoke(){
+    let res=await fetch(url);
+    console.log(res);
+  }
     return(
         <>
         <div className="heading">
