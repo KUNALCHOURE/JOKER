@@ -25,5 +25,5 @@ The Joker Project is designed to bring a smile to your face by fetching and disp
 - **CSS**: For styling the application.
 
 ## Screenshot
+![Screenshot 2024-07-06 221011](https://github.com/KUNALCHOURE/JOKER/assets/147177836/81958791-6644-4054-81dd-23404aa92b4f)
 
-![Joker Project Screenshot](path/to/your/screenshot.png)
