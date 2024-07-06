@@ -20,7 +20,8 @@ const [jokes,setjoke]=useState({setup:"",punchline:""});
           <div className='one'></div>
           <div className="main">
           <h1>JOKER</h1>
-          <p>Finding smile ,its just a click away</p>
+          <br />
+          <p>Finding smile&#128516;,its just a click away</p>
           </div>
           <div className='two'></div>
         </div>
