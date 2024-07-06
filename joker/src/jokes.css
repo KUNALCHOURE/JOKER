@@ -5,7 +5,52 @@
   }
   
   button {
-    display: block;
-    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #FFB74D; /* Light orange button */
+    border: none;
+    border-radius: 5px;
+    color:black;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #FF9800; 
   }
   
+  button:active {
+    background-color: #F57C00;
+  }
+  
+ .heading {
+    padding: 20px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .heading h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #534111;
+  }
+  
+  .heading p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #534111;
+    font-style: italic;
+  }
+  .main{ 
+ width: 500px;
+ height: 130px;
+    background-color: #FFF3E0; 
+  }
+  .one{
+ width: 200px;
+  }
+ .two{
+  width: 200px;
+ }

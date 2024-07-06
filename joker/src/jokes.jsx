@@ -17,12 +17,18 @@ const [jokes,setjoke]=useState({setup:"",punchline:""});
     return(
         <>
         <div className="heading">
+          <div className='one'></div>
+          <div className="main">
           <h1>JOKER</h1>
           <p>Finding smile ,its just a click away</p>
           </div>
+          <div className='two'></div>
+        </div>
+
           <hr />
 
-          <p >SETUP:{jokes.setup} <br />PUNCHLINE:{jokes.punchline} </p>
+          <p ><span><h2>{jokes.setup} </h2></span>
+           <span> <h2> {jokes.punchline}</h2></span> </p>
           <button onClick={getjoke}>Find a Joke!</button>
         </>
     )
