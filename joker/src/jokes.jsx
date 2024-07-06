@@ -12,8 +12,11 @@ const [jokes,setjoke]=useState({setup:"",punchline:""});
       punchline:jsonres.punchline
     });
     console.log(jokes);
+    smileyConfetti();
   
   }
+  
+
     return(
         <>
         <div className="heading">
