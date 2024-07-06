@@ -2,17 +2,6 @@
 
 The Joker Project is a simple web application that fetches random jokes from an API and displays them to the user. This project is a fun way to practice React hooks, API fetching, and basic CSS styling.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [How to Use](#how-to-use)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Overview
 
 The Joker Project is designed to bring a smile to your face by fetching and displaying random jokes. With each click of a button, a new joke is fetched from the Official Joke API and presented on the screen.
