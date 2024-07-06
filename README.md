@@ -24,3 +24,6 @@ The Joker Project is designed to bring a smile to your face by fetching and disp
 - **JavaScript**: For implementing the game logic and interactivity.
 - **CSS**: For styling the application.
 
+## Screenshot
+
+![Joker Project Screenshot](path/to/your/screenshot.png)
